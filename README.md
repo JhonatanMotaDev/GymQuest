@@ -19,11 +19,3 @@
 ## 🎯 Objetivo
 
 Promover uma experiência mais divertida e engajadora para quem deseja manter uma rotina saudável de treinos, utilizando a gamificação como ferramenta para aumentar a adesão e a motivação.
-
-## 📌 Status do Projeto
-
-🚧 Em desenvolvimento. Novas funcionalidades estão sendo adicionadas continuamente.
-
----
-
-> Sinta-se à vontade para contribuir ou acompanhar as atualizações no repositório.
