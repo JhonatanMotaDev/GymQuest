@@ -1,0 +1,182 @@
+// Mock data for feed
+export const mockFeedData = [
+  {
+    id: '1',
+    userName: 'John Davis',
+    userAvatar: 'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=120',
+    timestamp: '2 hours ago',
+    workoutTitle: 'Morning HIIT Session',
+    description: 'Started the day with an intense HIIT workout. Feeling energized and ready for the day! 💪',
+    workoutImage: 'https://images.pexels.com/photos/4498151/pexels-photo-4498151.jpeg?auto=compress&cs=tinysrgb&w=600',
+    duration: '45 min',
+    exercises: '12',
+    calories: '420',
+    likes: '24',
+    comments: '5',
+  },
+  {
+    id: '2',
+    userName: 'Sarah Williams',
+    userAvatar: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=120',
+    timestamp: '5 hours ago',
+    workoutTitle: 'Leg Day Challenge',
+    description: 'Never skip leg day! Completed the 30-day squat challenge. My legs are on fire but so worth it! 🔥',
+    duration: '60 min',
+    exercises: '8',
+    calories: '520',
+    likes: '42',
+    comments: '11',
+  },
+  {
+    id: '3',
+    userName: 'Mike Johnson',
+    userAvatar: 'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=120',
+    timestamp: 'Yesterday',
+    workoutTitle: 'Upper Body Focus',
+    description: 'Working on those gains with chest and arms day. Pushing my limits with heavier weights this week.',
+    workoutImage: 'https://images.pexels.com/photos/1229356/pexels-photo-1229356.jpeg?auto=compress&cs=tinysrgb&w=600',
+    duration: '50 min',
+    exercises: '10',
+    calories: '380',
+    likes: '18',
+    comments: '3',
+  },
+];
+
+// Mock data for workouts
+export const mockWorkouts = [
+  {
+    id: '1',
+    title: 'Morning HIIT Session',
+    type: 'HIIT',
+    date: 'Today',
+    duration: '45 min',
+    exercises: 12,
+    calories: 420,
+  },
+  {
+    id: '2',
+    title: 'Leg Day Strength',
+    type: 'Strength',
+    date: 'Yesterday',
+    duration: '60 min',
+    exercises: 8,
+    calories: 520,
+  },
+  {
+    id: '3',
+    title: 'Chest & Arms',
+    type: 'Strength',
+    date: '3 days ago',
+    duration: '50 min',
+    exercises: 10,
+    calories: 380,
+  },
+  {
+    id: '4',
+    title: 'Outdoor Run',
+    type: 'Cardio',
+    date: '4 days ago',
+    duration: '32 min',
+    exercises: 1,
+    calories: 310,
+  },
+];
+
+// Mock data for challenges
+export const mockChallenges = [
+  {
+    id: '1',
+    name: '30-Day Squat Challenge',
+    type: 'Monthly Challenge',
+    description: 'Complete 100 squats daily for 30 days to strengthen your lower body.',
+    duration: '30 days left',
+    participants: 48,
+    participantAvatars: [
+      'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=120',
+      'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=120',
+      'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=120',
+    ],
+    progress: 65,
+    isNew: false,
+  },
+  {
+    id: '2',
+    name: 'Weekly Step Count',
+    type: 'Weekly Challenge',
+    description: 'Reach 70,000 steps this week to win the challenge and earn the badge.',
+    duration: '5 days left',
+    participants: 124,
+    participantAvatars: [
+      'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=120',
+      'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=120',
+    ],
+    progress: 42,
+    isNew: true,
+  },
+  {
+    id: '3',
+    name: 'Push-up Progress',
+    type: 'Group Challenge',
+    description: 'Gradually increase your push-ups each day until you can do 50 consecutive push-ups.',
+    duration: '14 days left',
+    participants: 36,
+    participantAvatars: [
+      'https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=120',
+      'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=120',
+      'https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=120',
+    ],
+    progress: 25,
+    isNew: false,
+  },
+];
+
+// Mock user profile data
+export const mockUserProfile = {
+  name: 'Alex Morgan',
+  avatar: 'https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=120',
+  location: 'New York, USA',
+  workouts: 128,
+  following: 175,
+  followers: 482,
+  activity: {
+    thisWeek: 5,
+    thisMonth: 18,
+    streak: 4,
+    avgDuration: '52 min',
+  },
+  stats: {
+    workoutsThisWeek: 5,
+    totalExercises: 864,
+    challengesWon: 7,
+    friendsWorkingOut: 12,
+  },
+};
+
+// Mock achievements data
+export const mockAchievements = [
+  {
+    id: '1',
+    title: 'Early Bird',
+    description: 'Complete 10 workouts before 8 AM',
+    color: '#FF4757',
+  },
+  {
+    id: '2',
+    title: 'Consistency',
+    description: 'Work out 5 days in a row',
+    color: '#4A8CFF',
+  },
+  {
+    id: '3',
+    title: 'Heavy Lifter',
+    description: 'Lift 10,000 lbs in a single week',
+    color: '#FFB74D',
+  },
+  {
+    id: '4',
+    title: 'Marathon',
+    description: 'Run 26.2 miles in a month',
+    color: '#66BB6A',
+  },
+];
