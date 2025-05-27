@@ -12,10 +12,9 @@
 
 ## 🛠️ Tecnologias utilizadas
 
-- **Frontend:** [especificar ex: Flutter, React Native]
-- **Backend:** [especificar ex: Node.js, Firebase]
-- **Banco de dados:** [especificar ex: Firestore, MongoDB]
+- **Frontend:** [React Native]
+- **Backend:** [PHP]
+- **Banco de dados:** [MySQL]
 
 ## 🎯 Objetivo
-
 Promover uma experiência mais divertida e engajadora para quem deseja manter uma rotina saudável de treinos, utilizando a gamificação como ferramenta para aumentar a adesão e a motivação.
