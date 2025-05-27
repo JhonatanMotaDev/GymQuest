@@ -1,6 +1,6 @@
 # GymQuest 🏋️‍♂️🎮
 
-**GymQuest** é um aplicativo de motivação para treinos e musculação, inspirado em elementos de gamificação presentes em plataformas como *Duolingo* e *Strava*. A proposta é transformar a rotina de exercícios em uma jornada divertida, com missões diárias, sistema de recompensas e progressão de níveis, incentivando o usuário a manter a constância e o foco nos objetivos de saúde e bem-estar.
+**GymQuest** é um aplicativo de motivação para treinos e musculação, inspirado em elementos de gamificação presentes em plataformas como *Duolingo* e *GymRats*. A proposta é transformar a rotina de exercícios em uma jornada divertida, com missões diárias, sistema de recompensas e progressão de níveis, incentivando o usuário a manter a constância e o foco nos objetivos de saúde e bem-estar.
 
 ## 🚀 Funcionalidades
 
