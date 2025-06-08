@@ -26,7 +26,7 @@ export default function FeedScreen() {
             {post.workoutImage && (
               <Image 
                 source={{ uri: post.workoutImage }} 
-                style={styles.workoutImage} 
+                style={styles.workoutImage}
                 resizeMode="cover"
               />
             )}

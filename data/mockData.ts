@@ -43,7 +43,6 @@ export const mockFeedData = [
   },
 ];
 
-// Mock data for workouts
 export const mockWorkouts = [
   {
     id: '1',
@@ -83,7 +82,6 @@ export const mockWorkouts = [
   },
 ];
 
-// Mock data for challenges
 export const mockChallenges = [
   {
     id: '1',
@@ -131,7 +129,6 @@ export const mockChallenges = [
   },
 ];
 
-// Mock user profile data
 export const mockUserProfile = {
   name: 'Alex Morgan',
   avatar: 'https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&w=120',
@@ -153,7 +150,6 @@ export const mockUserProfile = {
   },
 };
 
-// Mock achievements data
 export const mockAchievements = [
   {
     id: '1',
